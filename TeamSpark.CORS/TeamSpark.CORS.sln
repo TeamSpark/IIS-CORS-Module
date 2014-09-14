@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.IIS.Module.CORS", "TeamSpark.IIS.Module.CORS\TeamSpark.IIS.Module.CORS.csproj", "{38B7BEA9-4E77-4E96-AF15-022C48983333}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{A03F9837-2D8C-4378-AAEB-681BDE40A911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.CORS.Demo.WebService", "Demo\TeamSpark.CORS.Demo.WebService\TeamSpark.CORS.Demo.WebService.csproj", "{352FD1E0-FF4C-40F1-B5ED-30E4704897BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.CORS.Demo.WebClient", "Demo\TeamSpark.CORS.Demo.WebClient\TeamSpark.CORS.Demo.WebClient.csproj", "{77A1714C-2B37-4913-A430-F7B72E52602D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +19,20 @@ Global
 		{38B7BEA9-4E77-4E96-AF15-022C48983333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B7BEA9-4E77-4E96-AF15-022C48983333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B7BEA9-4E77-4E96-AF15-022C48983333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352FD1E0-FF4C-40F1-B5ED-30E4704897BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352FD1E0-FF4C-40F1-B5ED-30E4704897BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352FD1E0-FF4C-40F1-B5ED-30E4704897BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352FD1E0-FF4C-40F1-B5ED-30E4704897BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A1714C-2B37-4913-A430-F7B72E52602D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A1714C-2B37-4913-A430-F7B72E52602D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A1714C-2B37-4913-A430-F7B72E52602D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A1714C-2B37-4913-A430-F7B72E52602D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{352FD1E0-FF4C-40F1-B5ED-30E4704897BB} = {A03F9837-2D8C-4378-AAEB-681BDE40A911}
+		{77A1714C-2B37-4913-A430-F7B72E52602D} = {A03F9837-2D8C-4378-AAEB-681BDE40A911}
 	EndGlobalSection
 EndGlobal
